@@ -4,7 +4,7 @@ jobs:
   first-job:
     runs-on: ubuntu-latest
     steps:
-      - nama: print geeting
+      - name: print geeting
         run: echo "Hello world!"
-      - nama: Print goodbye
+      - name: Print goodbye
         run: echo "Done - bye!"
